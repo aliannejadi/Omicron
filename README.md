@@ -11,7 +11,7 @@ Qualtrics is used for the questionnaires. The link for the questionnaires are in
 TaskBrowserActivity uses an interceptor to know when the user has finished a questionnaire, the url that Qualtrics use might change in the future. 
 
 A [Bing Web Search API](https://azure.microsoft.com/en-us/services/cognitive-services/bing-web-search-api/) subscription is needed to use web search capabilities 
-The key need to be set in MainActivity BING_KEY
+The key need to be set in Configuration.java BING_KEY
 
 ## Usage
 
