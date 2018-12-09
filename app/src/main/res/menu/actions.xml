@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_app_id"
+        android:title="@string/show_app_id" />
+    <item android:id="@+id/start_tutorial"
+        android:title="@string/start_tutorial" />
+    <item android:id="@+id/test_task"
+        android:title="@string/test_task" />
+    <item android:id="@+id/app_version"
+        android:title="@string/app_version" />
+</menu>
