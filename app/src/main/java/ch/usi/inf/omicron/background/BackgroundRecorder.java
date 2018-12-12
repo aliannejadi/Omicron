@@ -74,6 +74,7 @@ import ch.usi.inf.omicron.recordCommuter.WLANRecordCommuter;
 import static android.app.usage.UsageStatsManager.INTERVAL_DAILY;
 import static ch.usi.inf.omicron.Configuration.USAGE_INTERVAL;
 import static ch.usi.inf.omicron.Configuration.locationRate;
+import static ch.usi.inf.omicron.Configuration.recordRate;
 import static ch.usi.inf.omicron.Configuration.sampleRate;
 import static ch.usi.inf.omicron.Configuration.shouldRecordAccelerometer;
 import static ch.usi.inf.omicron.Configuration.shouldRecordActivities;
@@ -142,8 +143,6 @@ public class BackgroundRecorder extends Service implements SensorEventListener {
     private final String TRANSITIONS_RECEIVER_ACTION =
             BuildConfig.APPLICATION_ID + "TRANSITIONS_RECEIVER_ACTION";
     private final IBinder rBinder = new RecorderBinder();
-    // the recording submission rate
-    private final long recordRate = 1000 * 60 * 60;
     SharedPreferences prefs;
     SharedPreferences sharedPref;
     //Mohammad: to keep the phone awake...

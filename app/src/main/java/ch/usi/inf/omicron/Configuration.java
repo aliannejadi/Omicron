@@ -77,17 +77,19 @@ public class Configuration {
     public static final Boolean shouldRecordActivities = true;
     public static final Boolean shouldRecordCall = false;
     public static final Boolean shouldRecordSMS = false;
-    // Sample rates
-    // app usage interval period in milliseconds
-    public static final long USAGE_INTERVAL = 1000 * 60 * 60 * 24;
     // Search Engine Key
     static final String BING_KEY = "307f8a5745f64885b15d634055b1d920";
     // Surveys Qualtrics
     static final String FIRST_INSTALLATION_SURVEY = "https://usi.eu.qualtrics.com/jfe/form/SV_9KwlyX9uKq3DFMF";
     static final String PRE_TASK_URL = "https://usi.eu.qualtrics.com/jfe/form/SV_0jpmEMTIqlg0xdr";
     static final String POST_TASK_URL = "https://usi.eu.qualtrics.com/jfe/form/SV_diD2jD2dLEIxa6h";
-    // the sample rate for location recording
-    public static long locationRate = 1000 * 60 * 3;
+    // Sample rates (ms)
+    // app usage interval period in milliseconds
+    public static final long USAGE_INTERVAL = 1000 * 60 * 60 * 24;
+    // the sample rate for location recording in milliseconds
+    public static final long locationRate = 1000 * 60 * 3;
     // the sample rate in milliseconds
-    public static long sampleRate = 1000 * 60 * 2;
+    public static final long sampleRate = 1000 * 60 * 2;
+    // the recording submission rate
+    public static final long recordRate = 1000 * 60 * 60;
 }
