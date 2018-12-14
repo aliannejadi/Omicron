@@ -15,7 +15,7 @@ The key need to be set in Configuration.java BING_KEY
 
 ## Usage
 
-This application can be used for task-based user studies in mobile IR.
+This application can be used for task-based user studies in mobile IR. With some minor modifications, it can also be used for various types of studies in mobile IR, enabling researchers to build mobile search query log enrcihed by users interactions as well as other contextual/sensor data. Previously, we have modified Omicron to build a query log for universal mobile search (code can be accessed here: [uSearch](https://github.com/aliannejadi/usearch), data can be accessed here: [ISTAS](https://github.com/aliannejadi/istas)).
  
 Sensors data from participants' smartphones are collected for the duration of a study. The collected data
 is routinely uploaded to the cloud (Firebase Storage) for easy access and analysis.
@@ -105,4 +105,13 @@ We would like to thank Jacopo Fidacaro and Luca Costa for their efforts in devel
 
 ## Citation
 
-Mohammad Aliannejadi, Morgan Harvey, Luca Costa, Matthew Pointon and Fabio Crestani. "Understanding Mobile Search Task Relevance and User Behaviour in Context", In Proc. of CHIIR 2019.
+    @inproceedings{AliannejadiChiir19,
+        author    = {Aliannejadi, Mohammad and Harvey, Morgan and Costa, Luca and 
+                     Pointon, Matthew and Crestani, Fabio},
+        title     = {Understanding Mobile Search Task Relevance and User Behaviour in Context},
+        booktitle = {Proceedings of the {ACM} {SIGIR} Conference on 
+                     Human Information Interaction and Retrieval},
+        series    = {{CHIIR '19}},        
+        location  = {Glasgow, UK},          
+        year      = {2019}
+      }
