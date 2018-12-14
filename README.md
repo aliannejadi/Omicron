@@ -1,5 +1,6 @@
 # Omicron
-An Android app aimed for research on Mobile Information Retrieval. Developed at Università della Svizzera italiana (USI), Lugano, Switzerland.
+
+An Android app aimed for research on Mobile Information Retrieval, developed at Università della Svizzera italiana (USI), Lugano, Switzerland, in collaboration with Northumbria University, Newcastle upon Tyne, UK.
 
 ## Requirements
 
