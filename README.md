@@ -105,4 +105,4 @@ We would like to thank Jacopo Fidacaro and Luca Costa for their efforts in devel
 
 ## Citation
 
-Mohammad Aliannejadi, Morgan Harvey, Luca Costa, Matthew Pointon and Fabio Crestani. "Understanding Mobile Search Task Relevance and User Behaviour in Context: A User Study", In Proc. of CHIIR 2019.
+Mohammad Aliannejadi, Morgan Harvey, Luca Costa, Matthew Pointon and Fabio Crestani. "Understanding Mobile Search Task Relevance and User Behaviour in Context", In Proc. of CHIIR 2019.
