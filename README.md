@@ -113,7 +113,7 @@ We would like to thank Jacopo Fidacaro and Luca Costa for their efforts in devel
 ## Citation
 
     @inproceedings{CostaChiir20,
-        author    = {Costa, Luga and Aliannejadi, Mohammad and Crestani, Fabio},
+        author    = {Costa, Luca and Aliannejadi, Mohammad and Crestani, Fabio},
         title     = {A Tool for Conducting User Studies on Mobile Devices,
         booktitle = {Proceedings of the {ACM} {SIGIR} Conference on 
                      Human Information Interaction and Retrieval},
