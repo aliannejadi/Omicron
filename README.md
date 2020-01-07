@@ -100,7 +100,7 @@ Users can delay a task and it's reissued in the next time slot or it is piggybac
 
 The dashboard can be invoked running the script dashboard.py that will open the default browser. The necessary data for visualisation purpose is downloaded using download_monitoring_data.py (the firebase json configuration downloaded from Google must be placed in users-study-data and the name of the file must be edited in the script). A list of participant to monitor must be added in the users.csv, one per line. Rerun th script download_monitoring_data.py hourly or as needed to update the data.
 
-[Cached demo](https://rawcdn.githack.com/aliannejadi/Omicron/3e8659cb7e525b32a1014d908a2bd115810f7389/dashboard/Monitoring.html)
+[Cached demo](https://rawcdn.githack.com/aliannejadi/Omicron/a882fbcb9b94385f2a18ae0ddca0faf902218aba/dashboard/Monitoring.html)
 
 ## Contact
 Please do feel free to contact us for any questions.
