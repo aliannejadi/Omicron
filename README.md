@@ -104,7 +104,7 @@ The dashboard can be invoked running the script dashboard.py that will open the 
 
 ## Contact
 Please do feel free to contact us for any questions.
-    Mohammad Aliannejadi: mohammad.alian.nejadi@usi.ch
+    Mohammad Aliannejadi: m.aliannejadi@uva.nl
 
 ## Acknowledgements
 
@@ -112,13 +112,12 @@ We would like to thank Jacopo Fidacaro and Luca Costa for their efforts in devel
 
 ## Citation
 
-    @inproceedings{AliannejadiChiir19,
-        author    = {Aliannejadi, Mohammad and Harvey, Morgan and Costa, Luca and 
-                     Pointon, Matthew and Crestani, Fabio},
-        title     = {Understanding Mobile Search Task Relevance and User Behaviour in Context},
+    @inproceedings{CostaChiir20,
+        author    = {Costa, Luga and Aliannejadi, Mohammad and Crestani, Fabio},
+        title     = {A Tool for Conducting User Studies on Mobile Devices,
         booktitle = {Proceedings of the {ACM} {SIGIR} Conference on 
                      Human Information Interaction and Retrieval},
-        series    = {{CHIIR '19}},        
-        location  = {Glasgow, UK},          
-        year      = {2019}
+        series    = {{CHIIR '20}},        
+        location  = {Vancouver, BC, Canada},          
+        year      = {2020}
       }
